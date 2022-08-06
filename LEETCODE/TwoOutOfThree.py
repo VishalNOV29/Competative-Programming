@@ -1,0 +1,14 @@
+list1=[3,1]
+list2=[2,3]
+list3=[1,2]
+set1=set(list1)
+set2=set(list2)
+set3=set(list3)
+new_set1=set1.intersection(set2)
+print(new_set1)
+new_set2=set2.intersection(set3)
+print(new_set2)
+new_set3=set1.intersection(set3)
+print(new_set3)
+new_set=new_set1.union(new_set2,new_set3)
+print(new_set)
